@@ -1,0 +1,110 @@
+Weekday using switch:
+start
+var day as integer
+input day
+switch(day)
+    case 1: print "Monday"
+    case 2: print "Tuesday"
+    case 3: print "Wednesday"
+    case 4: print "Thursday"
+    case 5: print "Friday"
+    case 6: print "Saturday"
+    case 7: print "Sunday"
+    default: print "Invalid day"
+end switch
+end
+
+
+
+
+Calcuater using switch:
+start
+var a, b, result as real
+var op as char
+input a, op, b
+switch(op)
+    case '+': result = a + b
+    case '-': result = a - b
+    case '*': result = a * b
+    case '/': result = a / b
+    default: print "Invalid operator"
+end switch
+print result
+end
+
+
+
+
+
+Display colors:
+start
+var color as integer
+input color
+switch(color)
+    case 1: print "Red"
+    case 2: print "Green"
+    case 3: print "White"
+    case 4: print "Black"
+    default: print "Invalid choice"
+end switch
+end
+
+
+
+
+Food order menu:
+start
+var type as char
+var quantity, price, total as integer
+input type, quantity
+switch(type)
+    case 'B': price = 200
+    case 'F': price = 50
+    case 'P': price = 500
+    case 'S': price = 150
+    default: print "Invalid food"
+end switch
+total = price * quantity
+print total
+end
+
+
+
+
+Digit to word:
+start
+var d as integer
+input d
+switch(d)
+    case 0: print "Zero"
+    case 1: print "One"
+    case 2: print "Two"
+    case 3: print "Three"
+    case 4: print "Four"
+    case 5: print "Five"
+    case 6: print "Six"
+    case 7: print "Seven"
+    case 8: print "Eight"
+    case 9: print "Nine"
+    default: print "Invalid digit"
+end switch
+end
+
+
+
+
+
+Vowel or consonant:
+start
+var ch as char
+input ch
+switch(ch)
+    case 'a','e','i','o','u':
+         print "Vowel"
+    default:
+         print "Consonant"
+end switch
+end
+
+
+
