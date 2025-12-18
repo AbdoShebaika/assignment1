@@ -1,0 +1,39 @@
+Odd numbers from 1 to 100:
+start
+var i as integer
+for i = 1 to 100 step 2
+    print i
+end for
+end
+
+
+
+From 10 to 0 using do/while:
+start
+var i as integer
+i = 10
+do
+    print i
+    i = i - 1
+while i >= 0
+end
+
+
+
+
+Sum:
+start
+var num, sum, count as integer
+sum = 0
+count = 0
+while count < 10
+    input num
+    if num = -1 then
+        break
+    end if
+    sum = sum + num
+    count = count + 1
+end while
+print sum
+end
+
