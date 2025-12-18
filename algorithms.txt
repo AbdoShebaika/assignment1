@@ -1,0 +1,102 @@
+Area of rectangle:
+start
+var l, w, area as integer
+input l, w
+area = l * w
+print area
+end
+
+
+
+
+Roots of quadratic equation:
+start
+var a, b, c, d, r1, r2 as real
+input a, b, c
+d = b*b - 4*a*c
+if d >= 0 then
+    r1 = (-b + sqrt(d)) / (2*a)
+    r2 = (-b - sqrt(d)) / (2*a)
+    print r1, r2
+else
+    print "Imaginary roots"
+end if
+end
+
+
+
+
+
+Add two numbers:
+start
+var sum, num1, num2 as integer 
+input num1, num2
+sum = num1+num2
+print sum
+end
+
+
+
+
+Average,sum,product,min,max of 3 numbers:
+start
+var a, b, c, sum, product, avg, min, max as real
+input a, b, c
+sum = a + b + c
+product = a * b * c
+avg = sum / 3
+
+min = a
+if b < min then
+    min = b
+end if
+if c < min then
+    min = c
+end if
+
+max = a
+if b > max then
+    max = b
+end if
+if c > max then
+    max = c
+end if
+
+print sum, product, avg, min, max
+end
+
+
+
+
+check if the first number is multiple of the second:
+start
+var x, y as integer
+input x, y
+if x mod y = 0 then
+    print "x is a multiple of y"
+else
+    print "x is not a multiple of y"
+end if
+end
+
+
+
+
+Seperate a digit of 5 numbers:
+start
+var num, d1, d2, d3, d4, d5 as integer
+input num
+d1 = num / 10000
+d2 = (num / 1000) mod 10
+d3 = (num / 100) mod 10
+d4 = (num / 10) mod 10
+d5 = num mod 10
+print d1   d2   d3   d4   d5
+end
+
+
+
+
+
+
+
